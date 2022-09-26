@@ -1,0 +1,27 @@
+Performing experiment: experiment_distil_gaussian
+Date-Time: 28 January 2022, 02.48PM
+
+Args: ('CIFAR10', 5, 5)
+Kwargs: {'compare': True, 'model_student': 'resnet18'}
+
+Description: None
+Experiment Configuration:
+{'dataset_name': 'CIFAR10', 'code_dim': 10, 'model_teacher': 'resnet34', 'model_student': 'resnet18', 'inputs': 3, 'channels': 3, 'batch_size': 256}
+Files already downloaded and verified
+Files already downloaded and verified
+
+Distillation using Gaussian noise..
+Epoch: 1 	Training Loss: 2.2410 	Validation Loss: 2.0226 	Validation Accuracy: 0.2581
+Epoch: 2 	Training Loss: 2.0524 	Validation Loss: 1.7260 	Validation Accuracy: 0.3969
+Epoch: 3 	Training Loss: 1.8370 	Validation Loss: 1.5100 	Validation Accuracy: 0.4792
+Epoch: 4 	Training Loss: 1.7188 	Validation Loss: 1.2852 	Validation Accuracy: 0.5511
+Epoch: 5 	Training Loss: 1.6470 	Validation Loss: 1.2102 	Validation Accuracy: 0.5758
+
+Distillation using original training data..
+Epoch: 1 	Training Loss: 1.4678 	Validation Loss: 1.3135 	Validation Accuracy: 0.5648
+Epoch: 2 	Training Loss: 0.9416 	Validation Loss: 1.0136 	Validation Accuracy: 0.6544
+Epoch: 3 	Training Loss: 0.7420 	Validation Loss: 0.8891 	Validation Accuracy: 0.7015
+Epoch: 4 	Training Loss: 0.6892 	Validation Loss: 0.8200 	Validation Accuracy: 0.7289
+Epoch: 5 	Training Loss: 0.6713 	Validation Loss: 0.7695 	Validation Accuracy: 0.7406
+
+Successfully Executed!!

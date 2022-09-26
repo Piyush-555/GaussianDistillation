@@ -1,0 +1,18 @@
+Performing experiment: util_train_teacher
+Date-Time: 28 January 2022, 02.40PM
+
+Args: ('CIFAR10', 5)
+Kwargs: {}
+
+Experiment Configuration:
+{'dataset_name': 'CIFAR10', 'code_dim': 10, 'model_teacher': 'resnet34', 'model_student': 'resnet18', 'inputs': 3, 'channels': 3, 'batch_size': 256}
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to ./data/cifar-10-python.tar.gz
+Extracting ./data/cifar-10-python.tar.gz to ./data
+Files already downloaded and verified
+Epoch: 1 	Training Loss: 1.6853 	Training Accuracy: 0.3810 	Validation Loss: 1.3548 	Validation Accuracy: 0.4973
+Epoch: 2 	Training Loss: 1.1933 	Training Accuracy: 0.5669 	Validation Loss: 1.2738 	Validation Accuracy: 0.5655
+Epoch: 3 	Training Loss: 0.9488 	Training Accuracy: 0.6603 	Validation Loss: 0.9682 	Validation Accuracy: 0.6613
+Epoch: 4 	Training Loss: 0.7898 	Training Accuracy: 0.7236 	Validation Loss: 1.0327 	Validation Accuracy: 0.6575
+Epoch: 5 	Training Loss: 0.6661 	Training Accuracy: 0.7673 	Validation Loss: 0.6650 	Validation Accuracy: 0.7758
+
+Successfully Executed!!
