@@ -1,6 +1,6 @@
 # GaussianDistillation
 
-### Code for CIFAR10 experiment
+### Running CIFAR10 experiment
 
 ```python
 # Train teacher
