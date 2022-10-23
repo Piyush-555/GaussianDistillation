@@ -32,7 +32,7 @@ def weight_reset(m):
         m.reset_parameters()
 
 
-class DistillationLoss:  # Following name is more appropriate
+class DistillationLoss:
     def __init__(self, T=1):
         self.T = T
 
